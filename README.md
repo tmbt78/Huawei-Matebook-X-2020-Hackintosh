@@ -8,6 +8,7 @@ Complete EFI packs are available in the Releases page (please, refer to the righ
 Please do not clone or download the main branch for daily use: it may include unstable code just because it is my repository.
 
 If you find this bootloader configuration useful, consider giving it a star to make it more visible.
+
 If you find my work useful, please consider donating via PayPal. 
 
 This repository is for personal purposes
@@ -20,33 +21,56 @@ For more details on dual booting settings, please, see also below OpenCore notes
 
 # WHAT IS WORKING
  Intel(R) UHD 620 Graphics card
+ 
  Intel(R) Wireless-AC & Intel(R) Bluetooth
+ 
  Power Management with support for HWP (Intel Speed Shift & Intel SpeedStep)
+ 
  Sleep and Wake (support for native macOS hibernatemode3)
+ 
  Hibernation (support for native macOS hibernatemode25 with HibernationFixup.kext)
+ 
  Battery support with better memory access and integration of Battery Information Supplement
+ 
  Automatic Backlight control (with more granular levels)
+ 
  Backlight shortcuts (F1 [brightness level down] - F2 [brightness level up])
+ 
  Volume shortcuts (F4 [mute] - F5 [audio level down] - F6 [audio level up])
  Audio for Realtek ALC256 card (via AppleALC.kext and layout-id 97)
+ 
  Speakers & Internal Mic
+ 
  HDMI 2.0 up to two 4K @60 Hz monitors (via LSPCON)
+ 
  TouchPad (via Polling mode) and native macOS gestures
+ 
  Touchscreen (via GPIO mode) and native macOS gestures
+ 
  USB Ports Mapping (Type-C) with proper power levels
+ 
  NVRAM native support
  
  # WHAT IS NOT WORKING
  HD Camera
+ 
  Fingerprint Senson (disabled in BIOS)
  
  
 # POST - INSTALL SETTINGS
 Sleep and Hibernation
-Sleep function works flawlessly (both via software and via clamshell) like hibernation (suspend to disk or S4 sleep). In order to get automatic sleep working properly like real Macs, the following settings are mandatory:
+Sleep function works flawlessly (both via software and via clamshell) like hibernation (suspend to disk or S4 sleep). 
+In order to get automatic sleep working properly like real Macs, the following settings are mandatory:
+
 sudo pmset -a standby 0
+
 sudo pmset -a powernap 0 
+
 sudo pmset -a proximitywake 0
+
 sudo pmset -a tcpkeepalive 0
+
 sudo pmset -a womp 0
+
 sudo pmset -a hibernatemode 25
+
