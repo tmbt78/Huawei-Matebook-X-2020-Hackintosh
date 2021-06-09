@@ -52,7 +52,7 @@ For more details on dual booting settings, please, see also below OpenCore notes
  NVRAM native support
  
  # WHAT IS NOT WORKING
- HD Camera
+ HD Camera (Disable using SSDT)
  
  Fingerprint Senson (disabled in BIOS)
  
