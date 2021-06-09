@@ -19,6 +19,10 @@ For privacy reasons, all SMBIOS information has been wiped out in the configurat
 With every EFI update you retrieve from here, please, remember to transfer your Device details under PlatformInfo -> Generic in your config.plist.
 For more details on dual booting settings, please, see also below OpenCore notes.
 
+There are two different config.plist in the release zip. The default one is to use in case you've modded your BIOS for CGF unlock and DMVT to 64MB.
+If you haven't done these mods to your BIOS use the other config.plist prior renaming it to config.plist
+
+
 # WHAT IS WORKING
  Intel(R) UHD 620 Graphics card
  
