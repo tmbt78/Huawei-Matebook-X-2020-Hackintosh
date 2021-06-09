@@ -78,3 +78,5 @@ sudo pmset -a womp 0
 
 sudo pmset -a hibernatemode 25
 
+
+Download and install ALCPlugFix from this repository to fix audio problems after sleep
