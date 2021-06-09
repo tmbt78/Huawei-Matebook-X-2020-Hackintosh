@@ -37,11 +37,11 @@ For more details on dual booting settings, please, see also below OpenCore notes
  Backlight shortcuts (F1 [brightness level down] - F2 [brightness level up])
  
  Volume shortcuts (F4 [mute] - F5 [audio level down] - F6 [audio level up])
- Audio for Realtek ALC256 card (via AppleALC.kext and layout-id 97)
+ Audio for Realtek ALC256 card (via AppleALC.kext and layout-id 57)
  
  Speakers & Internal Mic
  
- HDMI 2.0 up to two 4K @60 Hz monitors (via LSPCON)
+ HDMI 2.0 up to two 4K @60 Hz monitors (via LSPCON). *** ONLY THE RIGHT TYPE-C PORT WORKS TO CONNECT AN EXTERNAL MONITOR USING THE ADAPTER ***
  
  TouchPad (via Polling mode) and native macOS gestures
  
