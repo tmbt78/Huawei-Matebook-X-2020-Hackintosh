@@ -56,7 +56,9 @@ If you haven't done these mods to your BIOS use the other config.plist prior ren
  
  # WHAT IS NOT WORKING
  HD Camera (Disable using SSDT)
+
  Fingerprint Senson (disabled in BIOS)
+
  Touchscreen (disable via ACPI patch)
  
  
