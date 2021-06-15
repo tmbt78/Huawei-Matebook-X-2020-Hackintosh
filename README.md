@@ -47,9 +47,8 @@ If you haven't done these mods to your BIOS use the other config.plist prior ren
  
  HDMI 2.0 up to two 4K @60 Hz monitors (via LSPCON). *** ONLY THE RIGHT TYPE-C PORT WORKS TO CONNECT AN EXTERNAL MONITOR USING THE ADAPTER ***
  
- TouchPad (via Polling mode) and native macOS gestures
+ TouchPad (via interrupt mode) and native macOS gestures
  
- Touchscreen (via GPIO mode) and native macOS gestures
  
  USB Ports Mapping (Type-C) with proper power levels
  
@@ -57,8 +56,8 @@ If you haven't done these mods to your BIOS use the other config.plist prior ren
  
  # WHAT IS NOT WORKING
  HD Camera (Disable using SSDT)
- 
  Fingerprint Senson (disabled in BIOS)
+ Touchscreen (disable via ACPI patch)
  
  
 # POST - INSTALL SETTINGS
