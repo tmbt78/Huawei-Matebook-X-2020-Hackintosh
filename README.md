@@ -59,7 +59,7 @@ If you haven't done these mods to your BIOS use the other config.plist prior ren
 
  Fingerprint Senson (disabled in BIOS)
 
- Touchscreen (disable via ACPI patch)
+ Touchscreen (disabled via ACPI patch)
  
  
 # POST - INSTALL SETTINGS
